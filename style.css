@@ -1,0 +1,203 @@
+/* style.css */
+body {
+        background-image:"images/【System Auto-save】Untitled_Unnamed Space-3.jpeg"; 
+        background-size: fit;
+        background-position: center;
+        background-repeat: no-repeat; 
+        color: black; 
+        text-align: center;
+        padding: 2rem 0; 
+}
+
+header {
+    background-color:#f5ecdc;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+..hero {
+    background-image: url("images/living room.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.hero-content {
+    max-width:960px;
+    margin: 3 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-projects, .services, .projects-page, .services-page, .contact-page {
+    text-align: center;
+    padding: 2rem 0;
+}
+.service-item img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .project-item img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+  }
+  
+  .hero img{
+      width: 200%;
+      max-height: 500px;
+      object-fit: cover;
+  }
+.project-grid, .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.project-item, .service-item {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #F5F5DC;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+label, input, textarea {
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+.social-media {
+    display: flex; 
+    gap: 15px; 
+    align-items: center;
+
+}
+
+.social-media a {
+    display: block;
+    opacity: 0.8; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.social-media a:hover {
+    opacity: 1; 
+}
+
+.social-media img {
+    width: 30px; 
+    height: auto;
+    display: block; 
+}
+
+
+.social-media-links {
+}
+
+.social-media-links p {
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+.social-media-links ul {
+    list-style: none; 
+    padding: 0;
+    margin: 5;
+    display: flex; 
+    gap: 20px;
+}
+
+.social-media-links li a {
+    text-decoration: none; 
+    color: #333; 
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media-links li a:hover {
+    color: #007bff;
+}
+
+.social-media-wrapper {
+    text-align: center; 
+}
+
+
+@media (max-width: 768px) {
+    .social-media img {
+        width: 24px;
+    }
+
+    .social-media-links ul {
+        gap: 10px;
+    }
+}
+
